@@ -24,7 +24,7 @@ Screenshot :https://github.com/shadirvan/Unity-Cheat-Sheet/blob/main/inputCode.p
 
 **Time.deltaTime** : When we use the above code it will different movement for different computers since frames in different computer differs. so on a more fps pc the object move faster to prevent this we multiply input statement with **time.deltaTime**.
 
-![[time.deltaTime.jpg]]
+![](Images/time.deltaTime.jpg)
 this 0.1 and 0.01 is Time.deltaTime it differ for each pc.
 
 **Cinemachine** : inorder to move camera based on player movement we use cinemachine for this purpose. First we need to install cinemachine package from window -> package manager
@@ -66,14 +66,14 @@ renderer.enabled = true;
 **Tags** : when we doing onCollisionEnter the problem is that we didn't specify which object hit.
 so if we need to change color if only player hits. we use tags. first select the player and in inspector give the tag as player. Then use the following code :
 
-![[tags.png]]
+![](Images/tags.png)
 
 **tansform.Rotate** : to change rotation of object. takes mainly three parameters x,y,z
 `transform.Rotate(x,y,z);`
 
 **Input.GetKey** : Other than using input manager we can give movement with getkey keyword.
 
-![[GetKey.png]]
+![](Images/GetKey.png)
 
 **AddRelativeForce()** : it is used to give force to player relative to it's axes.
 
