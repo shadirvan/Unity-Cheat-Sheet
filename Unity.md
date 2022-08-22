@@ -20,7 +20,7 @@ you can make an object in heirarchy into a prefab just by draging it into projec
 **Input** : inorder  for movement of player we use input manager in unity. it can be accessed by going to edit -> project settings. There are different axes. the one we commnly used for the front back left right movement are horizintal and vertical axes.
 the player can be moved using the following code with inputs :
 `Input.GetAxis("Horizontal")` or  `Input.GetAxis("Vertical")` and giving this value to a variable inside inside update methode. and passing the variable into the transform.translate method.
-Screenshot :https://github.com/shadirvan/Unity-Cheat-Sheet/blob/main/inputCode.png
+![](Images/InputCode.png)
 
 **Time.deltaTime** : When we use the above code it will different movement for different computers since frames in different computer differs. so on a more fps pc the object move faster to prevent this we multiply input statement with **time.deltaTime**.
 
@@ -79,7 +79,7 @@ so if we need to change color if only player hits. we use tags. first select the
 
 **Vector3.up** : it is the shorthand way of writing (0,1,0)
 
-![[addRelativeForce.png]]
+![](Images/addRelativeForce.png)
 
 here rb is the reference to a rigid body.
 
@@ -94,7 +94,7 @@ here rb is the reference to a rigid body.
 
 **LoadNextLevel** : inorder to load next scene and come back to first scene if there is no next scene we use the following code:
 
-![[Pasted image 20220818214849.png]]
+![](Images/LoadLevel.png)
 
 **Invoke** : Using invoke allows us to call a method so it executes after a delay of x seconds.
 syntax : `Invoke("MethodName", delayInSeconds);`
@@ -106,7 +106,7 @@ we create a audioclip reference with serializefield and pass tha audio.
 a clever way to add this is like this :
 
 
-![[Pasted image 20220819031250.png]]
+![](Images/OnCollisionEnter.png)
 
 now in the different events we add isTransition to true. so when that even happens isTransition is true. and from above we can see that if isTransitioning is true it just return before it goes to switch statements again.
 
@@ -115,10 +115,10 @@ once added give reference and use `winparticle.play();`. it would work just like
 
 **Slider in inspector** : inorder to get a slider in inspector we use range for example:
 
-![[Pasted image 20220820072958.png]]
+![](Images/MovementFactor.png)
 if we add this code we get a slider like  below.
 
-![[Pasted image 20220820073045.png]]
+![](Images/MovementFactorInspector.png)
 
 **Ocillation of objects** : refer the project rocket alpha and it's oscillation script.
 
@@ -151,7 +151,7 @@ the new one creates new references and stuff.
 Refer this Video :
 
 **Old input Manager** : uses the following code to move player.
-![[Pasted image 20220822031950.png]]
+![](Images/OldInputSystem.png)
 
 
 
