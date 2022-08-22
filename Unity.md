@@ -153,6 +153,10 @@ Refer this Video :
 **Old input Manager** : uses the following code to move player.
 ![](Images/OldInputSystem.png)
 
+**mathf.Clamp()** : Documentation : https://docs.unity3d.com/ScriptReference/Mathf.Clamp.html
+
+inorder to constrain a value for example position of object to a range we use clamp. <br> eg : ` Mathf.Clamp(rawXPos, -xRange, xRange); `<br> here rawXPos is the value we need to change and the other two parameters are min and max values for the rawXPos.
+
 
 
 **Created by Shadirvan**
