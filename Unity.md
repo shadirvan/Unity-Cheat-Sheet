@@ -20,9 +20,7 @@ you can make an object in heirarchy into a prefab just by draging it into projec
 **Input** : inorder  for movement of player we use input manager in unity. it can be accessed by going to edit -> project settings. There are different axes. the one we commnly used for the front back left right movement are horizintal and vertical axes.
 the player can be moved using the following code with inputs :
 `Input.GetAxis("Horizontal")` or  `Input.GetAxis("Vertical")` and giving this value to a variable inside inside update methode. and passing the variable into the transform.translate method.
-Screenshot :
-![Alt text]([inputCode.png](https://github.com/shadirvan/Unity-Cheat-Sheet/blob/main/inputCode.png)?raw=true "Title")
-![[[inputCode.png](https://github.com/shadirvan/Unity-Cheat-Sheet/blob/main/inputCode.png)]]
+Screenshot :https://github.com/shadirvan/Unity-Cheat-Sheet/blob/main/inputCode.png
 
 **Time.deltaTime** : When we use the above code it will different movement for different computers since frames in different computer differs. so on a more fps pc the object move faster to prevent this we multiply input statement with **time.deltaTime**.
 
