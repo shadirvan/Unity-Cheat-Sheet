@@ -21,7 +21,7 @@ you can make an object in heirarchy into a prefab just by draging it into projec
 the player can be moved using the following code with inputs :
 `Input.GetAxis("Horizontal")` or  `Input.GetAxis("Vertical")` and giving this value to a variable inside inside update methode. and passing the variable into the transform.translate method.
 Screenshot :
-![Alt text](inputCode.png]?raw=true "Title")
+![Alt text]([inputCode.png](https://github.com/shadirvan/Unity-Cheat-Sheet/blob/main/inputCode.png)?raw=true "Title")
 ![[inputCode.png]]
 
 **Time.deltaTime** : When we use the above code it will different movement for different computers since frames in different computer differs. so on a more fps pc the object move faster to prevent this we multiply input statement with **time.deltaTime**.
