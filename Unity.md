@@ -157,6 +157,15 @@ Refer this Video :
 
 inorder to constrain a value for example position of object to a range we use clamp. <br> eg : ` Mathf.Clamp(rawXPos, -xRange, xRange); `<br> here rawXPos is the value we need to change and the other two parameters are min and max values for the rawXPos.
 
+**Roll, pitch, yaw :** An aircraft in flight is free to rotate in three dimensions: yaw, nose left or right about an axis running up and down; pitch, nose up or down about an axis running from wing to wing; and roll, rotation about an axis running from nose to tail.<br>
+![](Images/Yaw_Axis_Corrected.png)
+
+**Quaternion.Euler :** if we set pitch roll and yaw in a random order we mess up the rotation. we while using the code we need to use the below code :
+
+![](Images/Quaternion.PNG)
+
+
+
 
 
 **Created by Shadirvan**
