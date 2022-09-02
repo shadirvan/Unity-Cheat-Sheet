@@ -164,7 +164,23 @@ inorder to constrain a value for example position of object to a range we use cl
 
 ![](Images/Quaternion.PNG)
 
+**Foreach loop** : it's a way of saying "do this for everything in a collection".
+usage : 
+```
+foreach  (ObjectType item in things)
+{
+        item.DoSomething();
+}
 
+```
+**Atributes** : Just like serialize Field there are other attributes like header and tooltip
+usage :-<br>
+
+```
+[Header("The heading of the the group")] 
+
+[Tooltip("This message shows when hover over the field with mouse")]
+```
 
 
 
